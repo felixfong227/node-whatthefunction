@@ -1,0 +1,21 @@
+{
+  "name": "node-whatthefunction",
+  "version": "1.0.0",
+  "description": "A new way to creating functions, making other's life more easier",
+  "main": "bin/index.js"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/felixfong227/node-whatthefunction.git"
+  },
+  "keywords": [
+    "function",
+    "easy",
+    "wtf"
+  ],
+  "author": "@felixfong227",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixfong227/node-whatthefunction/issues"
+  },
+  "homepage": "https://github.com/felixfong227/node-whatthefunction#readme"
+}
