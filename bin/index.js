@@ -57,9 +57,7 @@ module.exports = {
                 }
 
                 try{
-                    console.log("== NOTES ==");
                     callback(throwBackObject);
-                    console.log("===");
                 }catch (e){
 
                     if(!e.message.includes("callback is not a function")){
