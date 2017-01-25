@@ -1,6 +1,6 @@
 {
   "name": "node-whatthefunction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A new way to creating functions, making other's life more easier",
   "main": "bin/index.js",
   "repository": {
