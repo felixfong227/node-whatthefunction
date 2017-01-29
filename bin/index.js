@@ -71,6 +71,29 @@ module.exports = {
 
         }
 
+    },
+
+    // Show the info about that function
+
+    what: function (name,callback) {
+
+        var stack = require("./index").functionsCallStacks;
+
+        for(key in stack){
+
+            if(name == stack[key].name){
+
+                // Fount the function
+                var returnObject = {
+                    "name": stack[key].name,
+                    "description:": stack[key].description
+                };
+                callback(returnObject)
+
+            }
+
+        }
+
     }
 
 

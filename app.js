@@ -23,3 +23,7 @@ wtf.call("howdy",[
     // If you forgot what does the function do,you can read the little note by the function creator
     console.log(info.description)
 });
+
+wtf.what("howdy",function (back) {
+    console.log(back)
+});
